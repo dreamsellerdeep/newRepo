@@ -23,16 +23,34 @@
 # Registers:
 
 # File marks:
-'0  4  0  ~/repo2/somefile
-|4,48,4,0,1630988290,"~/repo2/somefile"
+'0  3  0  ~/repo3/testFile
+|4,48,3,0,1630989920,"~/repo3/testFile"
+'1  4  0  ~/repo2/somefile
+|4,49,4,0,1630988290,"~/repo2/somefile"
 
 # Jumplist (newest first):
+-'  3  0  ~/repo3/testFile
+|4,39,3,0,1630989920,"~/repo3/testFile"
+-'  1  0  ~/repo3/testFile
+|4,39,1,0,1630989870,"~/repo3/testFile"
+-'  4  0  ~/repo2/somefile
+|4,39,4,0,1630988290,"~/repo2/somefile"
 -'  4  0  ~/repo2/somefile
 |4,39,4,0,1630988290,"~/repo2/somefile"
 -'  1  0  ~/repo2/somefile
 |4,39,1,0,1630988261,"~/repo2/somefile"
+-'  1  0  ~/repo2/somefile
+|4,39,1,0,1630988261,"~/repo2/somefile"
 
 # History of marks within files (newest to oldest):
+
+> ~/repo3/testFile
+	*	1630989902	0
+	"	3	0
+	^	1	0
+	.	2	0
+	+	1	1
+	+	2	0
 
 > ~/repo2/somefile
 	*	1630988282	0
